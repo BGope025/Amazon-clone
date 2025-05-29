@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon clone</title>
+    <!-- logos taken from font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+         <!-- this is the top navigation bar -->
+        <div class="navbar">
+            <!-- box1...amazon logo -->
+            <div class="navLogo border">
+                <div class="logo"></div>
+            </div>
+            <!-- box2...location -->
+            <div class="navLoc border">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="loc">
+                    <p id="loc1">Deliver to</p>
+                    <p id="loc2">India</p>
+                </div>
+            </div> 
+            <!-- box3...search bar -->
+            <div class="navSearch">
+                <select class="opt">
+                    <option value="">All</option>
+                </select>
+                <input class="bar" placeholder="Search Amazon">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+             <!-- box4...sign in & accounts -->
+            <div class="navSign border">
+                <a href="">
+                    <p class="s1"><span>Hello, sign in</span></p>
+                    <p class="s2">Account & Lists</p>
+                </a>    
+            </div>
+            <!-- box5...order summary -->
+            <div class="navOrders border">
+                <a href="">
+                    <p class="s1"><span>Returns</span></p>
+                    <p class="s2">& Orders</p>
+                </a>    
+            </div>
+            <!-- box6...cart -->
+            <div class="navCart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <!-- panel below navbar -->
+        <div class="panel">
+            <!-- the menu option -->
+            <div class="panMenu border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panOption">
+                <a href="" class="c1 border">Today's Deals</a>
+                <a href="" class="c1 border">Registry</a>
+                <a href="" class="c1 border">Prime Video</a>
+                <a href="" class="c1 border">Gift Cards</a>
+                <a href="" class="c1 border">Customer Service</a>
+                <a href="" class="c1 border">Sell</a>
+            </div>
+        </div>
+    </header>
+    <!-- here we start the main data filling after creating the header of the website -->
+    <main>
+        <div class="body">
+            <!-- it contains the hero section -->
+            <div class="heroSection">
+                <div class="heroMessage">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href=""> Click here to go to amazon.in</a></div>
+            </div>
+
+            <!-- it contains the products ie the main content -->
+            <div class="content">
+                <!-- box1 -->
+                <div class="box1 box">
+                    <div class="boxContent">
+                        <!-- here we give the heading of the box -->
+                        <div class="head">
+                            <h2>Health & Personal Care</h2>
+                        </div>
+                        <!-- here we add the picture of the category -->
+                        <div class="dp" style='background-image: url("dp8.jpg")'></div>
+                        <!-- here we add the show in details option -->
+                        <div class="foot">
+                            <p>Explore all products</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box2 -->
+                <!-- the same type of form is used in the next boxes -->
+                <div class="box2 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Beauty & Wellness</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp7.jpg")'></div>
+                        <div class="foot">
+                            <p>Shop now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box3 -->
+                <div class="box3 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Shop for Home Essentials</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp3.jpg")'></div>
+                        <div class="foot">
+                            <p>Discover more in Home</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box4 -->
+                <div class="box4 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Bestselling Headphones</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp5.jpg")'></div>
+                        <div class="foot">
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box5 -->
+                <div class="box5 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Home Appliances</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp6.jpg")'></div>
+                        <div class="foot">
+                            <p>Shop now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box6 -->
+                <div class="box6 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Get your game on</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp4.jpg")'></div>
+                        <div class="foot">
+                            <p>Shop gaming</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box7 -->
+                <div class="box7 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Gifts for Mother's Day</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp1.jpg")'></div>
+                        <div class="foot">
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- box8 -->
+                <div class="box8 box">
+                    <div class="boxContent">
+                        <div class="head">
+                            <h2>Toys under $25</h2>
+                        </div>
+                        <div class="dp" style='background-image: url("dp2.jpg")'></div>
+                        <div class="foot">
+                            <p>Shop now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <hr>
+
+    <!-- footer of website starts here -->
+    <footer>
+        <!-- footer panel 1 -->
+        <div class="footPanel1">
+            Back to top
+        </div>
+        <!-- footer panel 2 -->
+        <div class="footPanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="">Sell products on Amazon</a>
+                <a href="">Sell on Amazon Business</a>
+                <a href="">Sell apps on Amazon</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Self-Publish with Us</a>
+                <a href="">Host an Amazon Hub</a>
+                <a hraf=""><pre>› See More Make Money 
+with Us</pre></a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a href="">Amazon Business Card</a>
+                <a href="">Shop with Points</a>
+                <a href="">Reload Your Balance</a>
+                <a href="">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href=""><pre>Amazon and COVID-
+19</pre></a>
+                <a href="">Your Account</a>
+                <a href="">Your Orders</a>
+                <a href=""><pre>Shipping Rates & 
+Policies</pre></a>
+                <a href=""><pre>Returns & 
+Replacements</pre></a>
+                <a href=""><pre>Manage Your 
+Content and Devices</pre></a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+        <hr id="boundline">
+        <!-- footer panel 3 -->
+        <div class="footPanel3">
+            <div class="logo footLogo"></div>
+            <div class="fp3">
+                <select>
+                    <option value="">English</option>
+                </select>
+            </div>
+            <div class="fp3">
+                $ USD-U.S.Doller
+            </div>
+            <div class="fp3">
+                United States
+            </div>
+        </div>
+        <!-- footer panel 4 -->
+        <div class="footPanel4">
+            <div class="footContent">
+                <div class="fc">
+                    <a href="" class="footHead"><p>Amazon Music</p>
+                        <pre>Stream millions
+of songs</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Amazon Ads</p>
+                        <pre>Reach customers 
+wherever they 
+spend their time</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>6pm</p>
+                        <pre>Score deals
+on fashion brands</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>AbeBooks</p>
+                        <pre>Books, art
+& collectibles</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>ACX</p>
+                        <pre>Audiobook 
+Publishing
+Made Easy</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Sell on Amazon</p>
+                        <pre>Start a Selling 
+Account</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Veego</p>
+                        <pre>Shipping Software
+Inventory 
+Management</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Amazon Business</p>
+                        <pre>Everything For
+Your Business</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>AmazonGlobal</p>
+                        <pre>Ship Orders
+Internationally</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Amazon Web</p>
+                        <pre>Services
+Scalable Cloud
+Computing 
+Services</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Audible</p>
+                        <pre>Listen to Books & 
+Original
+Audio 
+Performances</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Box Office Mojo</p>
+                        <pre>Find Movie
+Box Office Data</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Goodreads</p>
+                        <pre>Book reviews
+& 
+recommendations</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>IMDb</p>
+                        <pre>Movies, TV
+& Celebrities</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>IMDbPro</p>
+                        <pre>Get Info 
+Entertainment
+Professionals Need</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Kindle Direct</p>
+                        <pre>Publishing
+Indie Digital & 
+Print Publishing
+Made Easy</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Prime Video Direct</p>
+                        <pre>Video Distribution
+Made Easy</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Shopbop</p>
+                        <pre>Designer
+Fashion Brands</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Woot!</p>
+                        <pre>Deals and
+Shenanigans</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Zappos</p>
+                        <pre>Shoes &
+Clothing</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Ring</p>
+                        <pre>Smart Home
+Security Systems</pre></a>
+                </div>
+                <div class="fc"></div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>eero WiFi</p>
+                        <pre>Stream 4K Video
+in Every Room</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Blink</p>
+                        <pre>Smart Security
+for Every Home</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Neighbors App</p>
+                        <pre>Real-Time Crime
+& Safety Alerts</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>Amazon</p>
+                        <pre>Subscription Boxes
+Top subscription 
+boxes – right to 
+your door</pre></a>
+                </div>
+                <div class="fc">
+                    <a href="" class="footHead"><p>PillPack</p>
+                        <pre>Pharmacy 
+Simplified</pre></a>
+                </div>
+                <div class="fc"></div>
+            </div>
+        </div>
+
+        <!-- footer panel 5 -->
+         <div class="footPanel5">
+            <ul>
+                <li><a href="" class="fp5Items">Conditions of Use</a></li>
+                <li><a href="" class="fp5Items">Privacy Notice</a></li>
+                <li><a href="" class="fp5Items">Consumer Health Data Privacy Disclosure</a></li>
+                <li><a href="" class="fp5Items">Your Ads Privacy Choices</a></li>
+            </ul>
+            <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+         </div>
+    </footer>
+</body>
+</html>

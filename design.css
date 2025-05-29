@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* navigation bar */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 2px;
+}
+/* box1 */
+.navLogo{
+    height: 50px;
+    width: 115px;
+}
+.logo{
+    background-image: url("original-07c1061057a0e67fbacb04f741762ef1.PNG");
+    background-size: cover;
+    height: 45px;
+    width: 115px;
+}
+/* box2 */
+.navLoc{
+    height: 50px;
+    width: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-location-dot{
+    margin-top: 17px;
+}
+.loc{
+    margin-left: 2px;
+    height: 30px;
+}
+#loc1{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+#loc2{
+    color: #ffffff;
+    font-size: 1rem;
+}
+/* box3 */
+.navSearch{
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    width: 55%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.navSearch:hover{
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+}
+.opt{
+    background-color: #f3f3f3;
+    width: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.bar{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search{
+    background-color: #ff9900;
+    color: #0f1111;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+/* box4 & box5 */
+.s1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.s2{
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navSign{
+    padding: 10px 5px 10px 5px;
+}
+.navOrders{
+    padding: 10px 5px 10px 5px;
+}
+/* box6 */
+.navCart{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 10px 5px 10px 5px;
+}
+.navCart i {
+    font-size: 30px;
+}
+
+
+
+/* panel below navigation */
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panOption{
+    width: 92%;
+}
+.c1{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.85rem;
+    margin-left: 10px;
+    padding: 10px 5px 10px 5px;
+}
+.panMenu{
+    padding: 10px 5px 10px 5px;
+}
+
+
+/* this is the div which contains all the main data for items to be listed */
+.body{
+    position: relative;
+    background-color: #e9ecef;
+    padding-bottom: 20px;
+}
+
+
+
+/* hero section */
+.heroSection{
+    background-image: url("heroimg.jpg");
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroMessage{
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-top: 130px;
+}
+.heroMessage a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* main content section */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    top: 315px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 19px;
+    background-color: #e9ecef;
+}
+.box{
+    width: 23.5%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.boxContent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.head{
+    font-size: 0.9rem;
+}
+.dp{
+    height: 300px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 20px 0px 40px;
+}
+.foot{
+    color: #007185;
+}
+
+
+
+/* design for footer of the website */
+footer{
+    padding-top: 20px;
+    background-color: #e9ecef;
+}
+/* footer panel 1 */
+.footPanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+/* footer panel 2 */
+.footPanel2{
+    background-color: #222f3d;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 170px 0px 170px;
+}
+.footPanel2 ul{
+    padding: 0px 30px;
+}
+
+ul p{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 6px 0px 14px;
+    color: #ffffff;
+}
+
+ul a{
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.87rem;
+    display: block;
+    font-weight: 540;
+    margin-top: 10px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+#boundline{
+    color: #dddddd;
+    border: none;
+    border-top: 0.1px solid;
+}
+
+/* footer panel 3 */
+.footPanel3{
+    background-color: #222f3d;
+    color: white;
+    padding: 20px 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footLogo{
+    margin-right: 80px;
+}
+.fp3{
+    padding: 5px 25px 5px 15px;
+    margin-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    color: #dddddd;
+}
+.fp3 select{
+    background-color: #222f3d;
+    color: white;
+}
+
+
+/* footer panel 4 */
+.footPanel4{
+    height: 300px;
+    /* margin: 30px 0px 0px; */
+    padding: 30px 0px;
+    background-color: #131a22;
+}
+.footContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 14%;
+}
+.fc{
+    width: 122.5px;
+    height: 67.6px;
+    margin: 5px 9px;
+    font-size: 0.74rem;
+}
+.fc a{
+    text-decoration: none;
+    color: #999999;
+}
+.fc a p{
+    color: #dddddd;
+}
+.fc a:hover{
+    text-decoration: underline;
+}
+
+
+/* footer panel 5 */
+.footPanel5{
+    background-color: #131a22;
+    height: 77px;
+}
+.footPanel5 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.fp5Items{
+    padding: 5px 9px;
+    font-size: 0.77rem;
+    color: #dddddd;
+    font-weight: 500px;
+}
+.footPanel5 p{
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    font-size: 0.77rem;
+}
