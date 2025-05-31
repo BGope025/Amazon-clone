@@ -90,15 +90,16 @@
     border: none;
 }
 /* box4 & box5 */
+.navLink{
+    text-decoration: none;
+}
 .s1{
     color: #cccccc;
     font-size: 0.8rem;
-    text-decoration: none;
 }
 .s2{
     color: #ffffff;
     font-size: 1rem;
-    text-decoration: none;
     font-weight: 700;
 }
 .navSign{
