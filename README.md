@@ -1,1 +1,3 @@
-# This is my first project and also my first work in frontend
+# CLONE WEBSITE
+---
+This is my first project and also my first work in frontend.
